@@ -1,3 +1,7 @@
+.radius {
+  border-radius: 10px;
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -195,6 +199,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro img {
+  border-radius: 10px;
+  width: 100%;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -254,7 +262,7 @@ footer {
   margin-left: 4%;
 }
 .home .walk .walk-img img {
+  border-radius: 10px;
   width: 100%;
   height: auto;
-  border-radius: 10px;
 }
