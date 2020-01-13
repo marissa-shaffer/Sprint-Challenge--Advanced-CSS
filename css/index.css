@@ -186,6 +186,12 @@ p {
   width: 100%;
   margin-top: 1%;
 }
+@media (max-width: 500px) {
+  .Navigation nav {
+    width: 100%;
+    margin-top: 4%;
+  }
+}
 .Navigation nav a {
   text-decoration: none;
   font-size: 175%;
@@ -206,6 +212,11 @@ footer {
 .home .intro img {
   border-radius: 10px;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .home .intro img {
+    border-radius: 2px;
+  }
 }
 .home .intro h2 {
   padding: 15px;
