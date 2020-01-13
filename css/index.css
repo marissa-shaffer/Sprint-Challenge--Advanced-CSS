@@ -166,6 +166,7 @@ p {
   align-items: center;
   padding: 2%;
   background: #F6F6F6;
+  border-bottom: 2px solid lightgrey;
 }
 .Navigation h1 {
   font-size: 400%;
