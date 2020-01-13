@@ -1,8 +1,7 @@
 // Navigation code here
 .Navigation{
-    display: flex;
+    .flexcenter();
     flex-direction:column;
-    align-items: center;
     padding:2%;
     background:@wild-sand;
     border-bottom: 2px solid lightgrey;
@@ -12,15 +11,14 @@
     }
 
     nav{
-        display:flex;
+        .flexcenter();
         justify-content: center;
-        align-items: center;
         width:100%;
         margin-top:1%;
         a{
             text-decoration:none;
             font-size:175%;
-            color: black;
+            color: @ebony-clay;
             padding-left: 2%;
             padding-right: 2%;
         }
