@@ -199,6 +199,9 @@ p {
   padding-left: 2%;
   padding-right: 2%;
 }
+.Navigation nav a:hover {
+  color: grey;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
