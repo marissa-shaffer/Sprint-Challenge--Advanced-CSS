@@ -300,6 +300,9 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 95%;
+    margin: 1%;
+    height: 10vh;
+    padding: 4vh;
   }
 }
 .home .walk .walk-text .btn:hover {
