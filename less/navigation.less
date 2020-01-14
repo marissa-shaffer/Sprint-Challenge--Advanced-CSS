@@ -1,1 +1,39 @@
 // Navigation code here
+.Navigation{
+    .flexcenter();
+    flex-direction:column;
+    padding:2%;
+    background:@wild-sand;
+    border-bottom: 2px solid lightgrey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: .95;
+
+    h1{
+        font-size:400%;
+    }
+
+    nav{
+        .flexcenter();
+        justify-content: center;
+        width:100%;
+        margin-top:1%;
+
+        @media @phone{
+            width:100%;
+            margin-top:4%;
+        }
+        a{
+            text-decoration:none;
+            font-size:175%;
+            color: @ebony-clay;
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+
+        a:hover{
+            color: grey;
+        }
+    }
+}
